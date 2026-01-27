@@ -1,0 +1,75 @@
+/* --- Contact Page Styles --- */
+.extra-info h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* Subtle line under headings */
+.extra-info h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+}
+
+.extra-info p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 0.8rem;
+}
+
+/* Social Link Styling */
+.list-unstyled li {
+    margin-bottom: 15px;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list-unstyled li a:hover {
+    color: #000;
+}
+
+.list-unstyled img {
+    /* filter: grayscale(100%); Keeps it minimalist */
+    transition: filter 0.3s ease;
+    width: 40px; /* Slightly smaller for elegance */
+    height: 40px;
+}
+
+/* .list-unstyled li a:hover img {
+    filter: grayscale(0%); /* Color pops on hover */
+/* } */ 
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .extra-info {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .extra-info h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .list-unstyled li a {
+        justify-content: center;
+    }
+}
