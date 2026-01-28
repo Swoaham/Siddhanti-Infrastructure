@@ -1,4 +1,9 @@
 /* --- About Page Specifics --- */
+.active-link {
+    color: #000 !important;
+    font-weight: bold;
+}
+
 .about-hero {
     background: #f8f9fa; /* Changed from blue to clean off-white */
     padding: 80px 0;
