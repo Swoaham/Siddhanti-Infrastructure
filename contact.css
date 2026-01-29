@@ -9,6 +9,11 @@
     padding-bottom: 10px;
 }
 
+.active-link {
+    color: #000 !important;
+    font-weight: bold;
+}
+
 /* Subtle line under headings */
 .extra-info h3::after {
     content: '';

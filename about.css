@@ -38,6 +38,11 @@
     font-weight: 300;
 }
 
+.active-link {
+    color: #000 !important;
+    font-weight: bold;
+} 
+
 /* Image Grid for About Page */
 .about-image-grid {
     display: grid;
