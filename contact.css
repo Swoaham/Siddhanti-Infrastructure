@@ -1,4 +1,8 @@
 /* --- Contact Page Styles --- */
+.active-link {
+    color: #000 !important;
+    font-weight: bold;
+}
 .extra-info h3 {
     font-size: 1.1rem;
     font-weight: bold;
